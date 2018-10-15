@@ -2,7 +2,7 @@
 ```
 git remote add origin https://github.com/jinan5694/learngit.git
 ```
-### 提交代码到github
+### 提交代码到github，制造一些冲突内容
 ```
 git push origin master
 ```
@@ -21,4 +21,12 @@ git branch
 ### 切换分支
 ```
 git checkout branch_name
+```
+### 合并分支,命令用于合并指定分支到当前分支
+```
+git merge <branch_name>
+```
+### 删除分支，制造一些冲突内容
+```
+git branch -d <branch_name>
 ```
