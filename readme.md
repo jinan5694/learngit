@@ -6,3 +6,18 @@ git remote add origin https://github.com/jinan5694/learngit.git
 ```
 git push origin master
 ```
+## 分支
+### 创建分支
+```
+git branch dev
+git checkout dev
+// or
+git checkout -b dev
+```
+### 查看当前分支
+```
+git branch
+// output
+* dev
+  master
+```
