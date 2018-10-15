@@ -47,3 +47,8 @@ git stash drop
 // reset and remove
 git stash pop
 ```
+### 删除分支，强制删除分支
+```
+git branch -d <branch_name>
+git branch -D <branch_name>
+```
