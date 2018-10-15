@@ -22,3 +22,11 @@ git branch
 ```
 git checkout branch_name
 ```
+### 合并分支,命令用于合并指定分支到当前分支
+```
+git merge <branch_name>
+```
+### 删除分支，制造一些冲突内容
+```
+git branch -d <branch_name>
+```
