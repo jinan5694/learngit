@@ -17,7 +17,8 @@ git checkout -b dev
 ### 查看当前分支
 ```
 git branch
-// output
-* dev
-  master
+```
+### 切换分支
+```
+git checkout branch_name
 ```
