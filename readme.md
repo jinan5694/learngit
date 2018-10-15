@@ -26,7 +26,7 @@ git checkout branch_name
 ```
 git merge <branch_name>
 ```
-### 删除分支，制造一些冲突内容
+### 删除分支
 ```
 git branch -d <branch_name>
 ```
