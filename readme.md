@@ -52,3 +52,9 @@ git stash pop
 git branch -d <branch_name>
 git branch -D <branch_name>
 ```
+### clone
+```
+git clone git@github.com:jinan5694/learngit.git
+// 只能看到master，需要dev分支，需要clonedev从远程仓库
+git checkout -b dev origin/dev
+```
