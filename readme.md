@@ -30,4 +30,20 @@ git merge <branch_name>
 ```
 git branch -d <branch_name>
 ```
-### dev
+### 合并分支的另一种方式
+```
+// 这样合并可以保留提交点
+git merge --no-ff -m <message> <branch_name>
+```
+### stash 储藏当前工作现场
+```
+// save
+git stash
+// query
+git stash list
+// reset
+git stash apply
+git stash drop
+// reset and remove
+git stash pop
+```
