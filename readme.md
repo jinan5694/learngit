@@ -54,8 +54,16 @@ git branch -D <branch_name>
 ```
 
 ### 删除未暂存（stage）的文件
+#### 查看未暂存的文件
   ```
-  // Step 1 is to show what will be deleted by using the -n option:
   git clean -n
+  ```
+  #### 删除未暂存的文件
+  ```
   git clean -f
+  ```
+
+  #### 删除未暂存目录（包括目录里的文件）
+  ```
+  git clean -fd
   ```
