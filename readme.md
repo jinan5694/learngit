@@ -36,7 +36,7 @@ git branch -d <branch_name>
 git merge --no-ff -m <message> <branch_name>
 ```
 ### stash 储藏当前工作现场
-```
+```bash
 // save
 git stash
 // query
@@ -67,3 +67,48 @@ git branch -D <branch_name>
   ```
   git clean -fd
   ```
+
+### js demo
+```js
+// comment test
+function isDict (item) {
+  if (item.leaf) {
+    return false
+  } else {
+    const children = item.children
+    if (children && children.length) {
+      const child = children[0]
+      if (child.leaf) {
+        return true
+      }
+    }
+    return false
+  }
+}
+```
+```sass
+// 覆盖menu样式
+$height-submenu: 50px;
+.el-menu--collapse {
+  .el-menu-item, 
+  .el-submenu .el-submenu__title {
+    height: 64px;
+    padding: 0 !important;
+    color: #666;
+  }
+  .is-active {
+    &.el-menu-item, 
+    &.el-submenu .el-submenu__title,
+    &.el-submenu .el-submenu__title .icon {
+      color: $color-primary;
+    }
+  }
+}
+.el-menu--popup {
+  .el-menu-item {
+    height: $height-submenu;
+    line-height: $height-submenu;
+  }
+}
+// 覆盖menu样式 - end ^_^
+```
