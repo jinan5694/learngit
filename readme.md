@@ -52,3 +52,10 @@ git stash pop
 git branch -d <branch_name>
 git branch -D <branch_name>
 ```
+
+### 删除未暂存（stage）的文件
+  ```
+  // Step 1 is to show what will be deleted by using the -n option:
+  git clean -n
+  git clean -f
+  ```
